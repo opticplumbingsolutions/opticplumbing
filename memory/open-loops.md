@@ -12,9 +12,10 @@ type: open-loops
 ## Active
 
 - 2026-05-27 | user | Domain registration | Build proceeds on placeholder until decided
-- 2026-05-27 | user | Identify primary local competitor for positioning | Optional — needed only if we build a comparison block
-- 2026-05-27 | user | Set up Google Business Profile (post-launch) | The single biggest local-SEO lever — must be created and verified ASAP after launch
-- 2026-05-27 | user | Collect Google reviews | Currently 0; aim for ≥5 within month 1
+- 2026-06-22 | claude | Cross-spoke links on blocked-drains-concord point to index.html#services (jet-blasting & CCTV spoke pages not built yet) | Re-point to real spoke URLs when those pages are built
+- 2026-06-22 | claude | Header nav now has a Services dropdown (desktop) + hamburger mobile menu, listing all 8 spokes. Only Blocked Drains is a live link; other 7 show "soon" | When each spoke is built, flip its "soon" span to a live <a> in BOTH the desktop dropdown AND the mobile menu, in EVERY page (currently index.html + blocked-drains-concord.html)
+- 2026-05-27 | user | Set up Google Business Profile (post-launch) | The single biggest local-SEO lever — competitors win the map pack on reviews (Aptec 234, Fix n Flow 885). Must create + verify ASAP after launch
+- 2026-05-27 | user | Collect Google reviews | Currently 0; competitor in pack has only 9 — even 10-20 genuine reviews makes OPS competitive. Aim ≥5 within month 1
 
 ## Closed
 - 2026-05-27 ✅ NSW plumber's licence #368355C — added to page (4 spots) + schema (founder.hasCredential + identifier[])
@@ -25,3 +26,5 @@ type: open-loops
 - 2026-05-27 ✅ Service area + suburb list confirmed (Concord + 15 surrounding)
 - 2026-05-27 ✅ Headline locked: option A — "Blocked Drains, Burst Pipes & Hot Water — 24/7 in Concord & Inner West"
 - 2026-05-27 ✅ Keyword research completed (in hot-cache)
+- 2026-06-22 ✅ Page map locked: 9-page hub-and-spoke, homepage=hub (see decisions.md)
+- 2026-06-22 ✅ Primary competitor identified: JAB Plumbing Solutions (same hub-spoke strategy) + full competitor set in entities/candidates.md

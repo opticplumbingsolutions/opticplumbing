@@ -52,3 +52,42 @@
 - Do not stop after one screenshot pass
 - Do not use `transition-all`
 - Do not use default Tailwind blue/indigo as primary color
+
+---
+
+## SEO / GEO — Local Service Pages (added 2026-06-22)
+
+Goal: rank Optic Plumbing for Concord service searches and earn AI-answer citations.
+Model = **one suburb (Concord), many services**, hub-and-spoke. Scale later by repeating
+the winning template into neighbouring suburbs (Concord West, Five Dock, Drummoyne, etc.).
+
+**The deep how-to lives in the `skills/` folder — not in this file.** For each page, use the
+SEO skills (they hold the full instructions):
+- `/seo:keyword-research` — once per service cluster
+- `/seo:write-content` — draft the page
+- `/seo:generate-schema` — Plumber/LocalBusiness + Service + FAQPage
+- `/seo:optimize-meta` — title tag + meta description
+- `/seo:audit-page` + `/seo:check-technical` — verify before calling a page done
+
+**Hard rules — every page, no exceptions:**
+- Each service = its own HTML file at its own clean URL (e.g. `/burst-pipe-concord`),
+  never one mega-page. A per-page URL + meta is the whole point.
+- Unique title tag, meta description, and H1 per page, built around that page's keyword.
+  Never reuse them across pages.
+- Optimise at the moment of creation — never "SEO it later."
+- **Differentiate or get flagged:** write each page around that service's real problem
+  (symptoms, causes, urgency, process, price band). No find-and-replace clones. If two
+  pages share the same search intent, they are ONE page (hot water replacement = hot
+  water system, so pick one).
+- Schema on every page: LocalBusiness/Plumber + Service + a service-specific FAQPage
+  (this is the AI-citation / GEO play).
+- Internal linking: every service page links UP to the "Plumber Concord" hub and ACROSS
+  to related services (blocked drain ↔ jet blasting ↔ CCTV ↔ tree roots).
+- Add every new page to the nav across all HTML files **in the same session it is created** —
+  no orphan pages.
+- Add every new page to `sitemap.xml`.
+- Hero paragraph must stay visible on mobile — never `display:none` it (mobile-first indexing).
+- Images: WebP + descriptive alt text.
+
+**Page plan / topic map:** kept in a SEPARATE file, never inline in this CLAUDE.md (keeps
+this file lean so it loads fully every session). Build and extend the map there, not here.

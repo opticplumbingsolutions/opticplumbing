@@ -1,0 +1,1172 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8" />
+<title>Optic Plumbing Solutions — Commercial and Government Capability Statement</title>
+<meta name="author" content="Optic Plumbing Solutions" />
+<style>
+/* ══════════════════════════════════════════════════════════════
+   OPTIC PLUMBING SOLUTIONS · CAPABILITY STATEMENT
+   Self hosted static fonts. Google serves variable fonts, which
+   Chrome cannot embed and falls back to Type3 glyph programs,
+   the single biggest cause of slow rendering on phones.
+   ══════════════════════════════════════════════════════════════ */
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:400;font-display:block;src:url('assets/fonts/JetBrainsMono-400.woff') format('woff');}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:500;font-display:block;src:url('assets/fonts/JetBrainsMono-500.woff') format('woff');}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:700;font-display:block;src:url('assets/fonts/JetBrainsMono-700.woff') format('woff');}
+@font-face{font-family:'Manrope';font-style:normal;font-weight:400;font-display:block;src:url('assets/fonts/Manrope-400.woff') format('woff');}
+@font-face{font-family:'Manrope';font-style:normal;font-weight:500;font-display:block;src:url('assets/fonts/Manrope-500.woff') format('woff');}
+@font-face{font-family:'Manrope';font-style:normal;font-weight:700;font-display:block;src:url('assets/fonts/Manrope-700.woff') format('woff');}
+@font-face{font-family:'Saira Condensed';font-style:normal;font-weight:700;font-display:block;src:url('assets/fonts/SairaCondensed-700.woff') format('woff');}
+@font-face{font-family:'Saira Condensed';font-style:normal;font-weight:800;font-display:block;src:url('assets/fonts/SairaCondensed-800.woff') format('woff');}
+
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+
+:root{
+  --navy:#0A1B33;  --deep:#060F1E;  --optic:#143C72;
+  --hydro:#2E78C8; --sky:#5BA8E8;   --red:#E83A3A;
+  --ice:#EFF4F9;   --line:#D6E0EA;  --ink:#0F1720;  --mute:#55636F;
+  --spine:16mm;    --gutter:29mm;   --edge:16mm;
+}
+html{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+body{ font-family:'Manrope',system-ui,sans-serif; color:var(--ink); background:#8A97A5; }
+
+@page{ size:A4 portrait; margin:0; }
+.page{ position:relative; width:210mm; height:297mm; overflow:hidden; background:#fff;
+       break-after:page; page-break-after:always; }
+.page:last-child{ break-after:auto; page-break-after:auto; }
+
+/* ─── SPINE ─────────────────────────────────────────────── */
+.spine{ position:absolute; left:0; top:0; bottom:0; width:var(--spine); background:var(--navy); }
+.spine::after{ content:""; position:absolute; right:0; top:0; height:96mm; width:.75pt; background:var(--hydro); }
+.spine .no{ position:absolute; top:15mm; left:0; right:0; text-align:center;
+  font:700 15pt/1 'JetBrains Mono',monospace; color:var(--sky); letter-spacing:-.02em; }
+.spine .no i{ display:block; font-style:normal; font-size:6.2pt; font-weight:400;
+  color:#697585; letter-spacing:.1em; margin-top:1.6mm; }
+.spine .lbl{ position:absolute; top:40mm; bottom:46mm; left:0; right:0;
+  display:flex; align-items:flex-start; justify-content:center; }
+.spine .lbl span{ writing-mode:vertical-rl; text-orientation:mixed;
+  font:500 6.8pt/1 'JetBrains Mono',monospace; letter-spacing:.24em;
+  text-transform:uppercase; color:#909AA7; white-space:nowrap; }
+.spine .track{ position:absolute; left:50%; margin-left:-.375pt; width:.75pt;
+  top:118mm; bottom:24mm; background:#2A394E; }
+.spine .tick{ position:absolute; left:-1.125pt; width:3pt; background:var(--hydro); }
+.spine .foot{ position:absolute; bottom:11mm; left:0; right:0; text-align:center;
+  font:700 7pt/1 'JetBrains Mono',monospace; letter-spacing:.18em; color:#626D7C; }
+
+/* ─── FRAME ─────────────────────────────────────────────── */
+.body{ position:absolute; left:var(--gutter); right:var(--edge); top:22mm; bottom:20mm; }
+.foot-rule{ position:absolute; left:var(--gutter); right:var(--edge); bottom:12mm;
+  border-top:.6pt solid var(--line); padding-top:2.6mm;
+  display:flex; justify-content:space-between; align-items:baseline;
+  font:400 7pt/1 'JetBrains Mono',monospace; letter-spacing:.06em;
+  text-transform:uppercase; color:var(--mute); }
+.foot-rule b{ font-weight:500; color:var(--navy); }
+
+/* ─── TYPE ──────────────────────────────────────────────── */
+.eyebrow{ font:500 7.8pt/1 'JetBrains Mono',monospace; letter-spacing:.2em;
+  text-transform:uppercase; color:var(--hydro); }
+h1{ font-family:'Saira Condensed',sans-serif; font-weight:800; font-size:27pt;
+  line-height:1.0; letter-spacing:.008em; text-transform:uppercase; color:var(--ink); margin-top:4mm; }
+h1 em{ font-style:normal; color:var(--hydro); }
+.rule{ width:22mm; height:2.8pt; background:var(--hydro); margin:4.6mm 0 0; }
+.deck{ font:400 11.4pt/1.55 'Manrope',sans-serif; color:var(--mute); max-width:150mm; margin-top:6mm; }
+.deck strong{ font-weight:700; color:var(--ink); }
+h3{ font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:13pt;
+  line-height:1.12; letter-spacing:.05em; text-transform:uppercase; color:var(--hydro); }
+p{ font:400 10.2pt/1.6 'Manrope',sans-serif; color:var(--ink); }
+p.sm{ font-size:9.2pt; line-height:1.55; color:var(--mute); }
+p + p{ margin-top:3mm; }
+
+/* ─── SPEC ROWS ─────────────────────────────────────────── */
+.spec{ border-top:.8pt solid var(--navy); }
+.spec .r{ display:grid; grid-template-columns:38mm 1fr; gap:6mm;
+  padding:3mm 0; border-bottom:.6pt solid var(--line); }
+.spec .r.wide{ grid-template-columns:1fr; gap:1.2mm; }
+.spec .k{ font:500 7.8pt/1.5 'JetBrains Mono',monospace; letter-spacing:.08em;
+  text-transform:uppercase; color:var(--hydro); }
+.spec .v{ font:400 9.8pt/1.5 'Manrope',sans-serif; color:var(--ink); overflow-wrap:anywhere; }
+.spec .v b{ font-weight:700; }
+.spec .v em{ font-style:normal; font-family:'JetBrains Mono',monospace; font-size:9.2pt; }
+
+/* ─── LISTS ─────────────────────────────────────────────── */
+ul{ list-style:none; }
+.tl li{ position:relative; padding-left:6.2mm;
+  font:400 10pt/1.5 'Manrope',sans-serif; color:var(--ink); padding-bottom:2.6mm; }
+.tl li::before{ content:""; position:absolute; left:.2mm; top:1.9mm;
+  width:1.9mm; height:1.9mm; background:var(--hydro); }
+.tl.dense li{ padding-bottom:2mm; font-size:9.6pt; }
+.tl.on-dark li{ color:#E7E8EB; }
+.tl.on-dark li::before{ background:var(--sky); }
+.tl li b{ font-weight:700; }
+
+/* ─── LAYOUT ────────────────────────────────────────────── */
+.g2{ display:grid; grid-template-columns:1fr 1fr; gap:10mm; }
+.g2u{ display:grid; grid-template-columns:1.15fr 1fr; gap:10mm; }
+.g3{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:7mm; }
+.mt3{margin-top:3mm} .mt4{margin-top:4mm} .mt6{margin-top:6.5mm}
+.mt8{margin-top:9mm} .mt10{margin-top:12mm}
+
+/* ─── PANELS ────────────────────────────────────────────── */
+.panel{ background:var(--ice); border-left:3.5pt solid var(--hydro); padding:5.5mm 6.5mm; }
+.panel h3{ margin-bottom:3mm; }
+.panel p{ font-size:9.8pt; line-height:1.55; }
+.panel--navy{ background:var(--navy); border-left-color:var(--sky); }
+.panel--navy h3{ color:var(--sky); }
+.panel--navy p{ color:#E7E8EB; }
+.panel--urgent{ background:var(--navy); border-left-color:var(--red); }
+.panel--urgent h3{ color:var(--red); }
+.panel--urgent p{ color:#E7E8EB; }
+
+/* ─── STEPS ─────────────────────────────────────────────── */
+.step{ display:grid; grid-template-columns:10mm 1fr; gap:4.5mm;
+  padding:3.4mm 0; border-top:.6pt solid var(--line); }
+.step:first-child{ border-top:.8pt solid var(--navy); }
+.step .n{ font:700 12.5pt/1 'JetBrains Mono',monospace; color:var(--hydro); letter-spacing:-.04em; }
+.step h4{ font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:12.5pt;
+  line-height:1.05; letter-spacing:.045em; text-transform:uppercase; color:var(--navy); }
+.step p{ font-size:9.4pt; line-height:1.5; color:var(--mute); margin-top:1.4mm; }
+
+/* ─── PHOTOGRAPHY ───────────────────────────────────────── */
+.shot{ position:relative; overflow:hidden; background:var(--navy);
+  border:.8pt solid var(--navy); }
+.shot img{ width:100%; height:100%; object-fit:cover; display:block; }
+.shot figcaption{ position:absolute; left:5mm; right:5mm; bottom:3.8mm;
+  font:500 7pt/1.4 'JetBrains Mono',monospace; letter-spacing:.1em;
+  text-transform:uppercase; color:#FFFFFF; }
+.shot figcaption::before{ content:""; display:block; width:8mm; height:1.6pt;
+  background:var(--sky); margin-bottom:2.2mm; }
+
+
+/* ─── HERO PHOTO ────────────────────────────────────────── */
+.hero{ position:relative; overflow:hidden; background:var(--navy); border:.8pt solid var(--navy); }
+.hero img{ width:100%; height:100%; object-fit:cover; display:block; }
+.hero .cap{ position:absolute; left:8mm; right:8mm; bottom:7mm; }
+.hero .cap .k{ font:500 7.6pt/1 'JetBrains Mono',monospace; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--sky); margin-bottom:3.4mm; }
+.hero .cap h2{ font-family:'Saira Condensed',sans-serif; font-weight:800; font-size:21pt;
+  line-height:1.06; letter-spacing:.02em; text-transform:uppercase; color:#fff; }
+.hero .cap p{ font:400 10pt/1.5 'Manrope',sans-serif; color:#D2D8DE; max-width:112mm; margin-top:3.4mm; }
+
+/* ─── STATS ─────────────────────────────────────────────── */
+.stats{ display:grid; grid-template-columns:repeat(3,1fr); border-top:.8pt solid var(--navy); }
+.stats > div{ padding:4.5mm 5mm 4.5mm 0; border-bottom:.6pt solid var(--line); }
+.stats .fig{ font:700 23pt/1 'JetBrains Mono',monospace; color:var(--navy); letter-spacing:-.03em; }
+.stats .fig small{ font-size:10pt; font-weight:500; color:var(--hydro); }
+.stats .cap{ font:500 7.6pt/1.5 'JetBrains Mono',monospace; letter-spacing:.08em;
+  text-transform:uppercase; color:var(--mute); margin-top:2.6mm; }
+
+/* ─── CARDS ─────────────────────────────────────────────── */
+.cap{ border-top:1.8pt solid var(--navy); padding-top:3.2mm; }
+.cap .ix{ font:700 7.6pt/1 'JetBrains Mono',monospace; letter-spacing:.1em; color:var(--hydro); }
+.cap h4{ font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:13pt;
+  line-height:1.07; letter-spacing:.04em; text-transform:uppercase; color:var(--navy);
+  margin-top:2.6mm; min-height:2.14em; }
+.cap p{ font-size:9.2pt; line-height:1.5; color:var(--mute); margin-top:2.2mm; }
+
+/* ─── TABLE ─────────────────────────────────────────────── */
+table.mx{ width:100%; border-collapse:collapse; }
+table.mx th{ font:500 7.6pt/1.4 'JetBrains Mono',monospace; letter-spacing:.08em;
+  text-transform:uppercase; color:var(--hydro); text-align:left;
+  padding:0 4mm 2.6mm 0; border-bottom:.8pt solid var(--navy); }
+table.mx th:last-child, table.mx td:last-child{ padding-right:0; }
+table.mx td{ font:400 9.6pt/1.5 'Manrope',sans-serif; color:var(--ink);
+  padding:2.9mm 4mm 2.9mm 0; border-bottom:.6pt solid var(--line); vertical-align:top; }
+table.mx td b{ font-weight:700; color:var(--navy); }
+table.mx td.m{ font-family:'JetBrains Mono',monospace; font-size:8.8pt;
+  color:var(--hydro); white-space:nowrap; }
+
+/* ─── CONTACT ───────────────────────────────────────────── */
+.ct{ background:var(--navy); padding:7.5mm 9mm 8mm; position:relative; }
+.ct::before{ content:""; position:absolute; left:0; right:0; top:0; height:3.5pt; background:var(--hydro); }
+.ct-top{ padding-bottom:5.5mm; border-bottom:.6pt solid #313F54; }
+.ct-grid{ display:grid; grid-template-columns:1.05fr 1fr; gap:9mm; padding-top:5.5mm; }
+.ct-k{ font:500 7.8pt/1 'JetBrains Mono',monospace; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--sky); margin-bottom:3.6mm; }
+.ct .big{ font:700 24pt/1 'JetBrains Mono',monospace; color:#fff; letter-spacing:-.035em; }
+.ct-line{ font:500 10.4pt/1.5 'Manrope',sans-serif; color:#EBEDEF; }
+.ct-meta{ font:400 8.6pt/1.6 'JetBrains Mono',monospace; letter-spacing:.04em;
+  color:#86909E; margin-top:5mm; }
+.lockup .wm{ font-family:'Saira Condensed',sans-serif; font-weight:800; text-transform:uppercase;
+  letter-spacing:.12em; color:#fff; line-height:1; }
+.lockup .sub{ font:400 7.4pt/1 'JetBrains Mono',monospace; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--sky); margin-top:2mm; }
+.signoff{ border-top:.8pt solid var(--navy); padding-top:5mm; }
+.signoff-line{ font-family:'Saira Condensed',sans-serif; font-weight:800; font-size:22pt;
+  line-height:1.1; letter-spacing:.02em; text-transform:uppercase; color:var(--navy); }
+.signoff-line em{ font-style:normal; color:var(--hydro); }
+.signoff-sub{ font:500 7.6pt/1 'JetBrains Mono',monospace; letter-spacing:.12em;
+  text-transform:uppercase; color:var(--mute); margin-top:4mm; }
+
+/* ─── COVER ─────────────────────────────────────────────── */
+.cover{ background:var(--deep); color:#fff; }
+.cover .photo{ position:absolute; left:0; right:0; top:0; height:141mm; overflow:hidden; }
+.cover .photo img{ width:100%; height:100%; object-fit:cover; }
+.cover .waterline{ position:absolute; left:0; right:0; top:141mm; height:3.5pt; background:var(--hydro); }
+.cover .topbar{ position:absolute; left:18mm; right:16mm; top:14mm;
+  display:flex; justify-content:space-between; align-items:flex-start; }
+.cover .tag{ font:500 7.4pt/1 'JetBrains Mono',monospace; letter-spacing:.16em;
+  text-transform:uppercase; color:#D8DEE5; }
+.cover .tag .dot{ color:var(--sky); }
+.cover .titleblock{ position:absolute; left:18mm; right:16mm; top:153mm; }
+.cover h1.big{ font-family:'Saira Condensed',sans-serif; font-weight:800; font-size:56pt;
+  line-height:.92; letter-spacing:-.004em; text-transform:uppercase; color:#fff; margin:0; }
+.cover h1.big span{ display:block; color:var(--sky); }
+.cover .descr{ font:400 12pt/1.6 'Manrope',sans-serif; color:#CDCFD2;
+  max-width:122mm; margin-top:8mm; }
+.cover .descr b{ color:#fff; font-weight:700; }
+.cover .hair{ width:100%; height:.6pt; background:#2E3542; margin-top:9mm; }
+.cover .capstrip{ position:absolute; left:18mm; right:16mm; top:238mm;
+  display:grid; grid-template-columns:repeat(4,1fr); gap:5mm; }
+.cover .capstrip div{ border-top:1.6pt solid var(--hydro); padding-top:3.2mm; }
+.cover .capstrip .k{ font:500 7.4pt/1.4 'JetBrains Mono',monospace; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--sky); }
+.cover .capstrip .v{ font:700 11pt/1.3 'Manrope',sans-serif; color:#fff; margin-top:2mm; }
+.cover .base{ position:absolute; left:18mm; right:16mm; bottom:13mm;
+  display:flex; justify-content:space-between; align-items:flex-end; }
+.cover .base .rev{ font:400 7.4pt/1.6 'JetBrains Mono',monospace; letter-spacing:.06em;
+  text-transform:uppercase; color:#6F747D; text-align:right; }
+</style>
+</head>
+<body>
+
+<!-- ═══════ 01 · COVER ═══════ -->
+<section class="page cover">
+  <div class="photo"><img src="assets/capability/cover-truck.jpg" alt="Optic Plumbing Solutions jetter truck"></div>
+  <div class="waterline"></div>
+  <div class="topbar">
+    <div class="tag">Optic Plumbing Solutions <span class="dot">·</span> Concord NSW</div>
+    <div class="tag">ABN 28 654 678 449</div>
+  </div>
+  <div class="titleblock">
+    <div class="eyebrow" style="color:var(--sky)">Commercial · Government · Council · Facilities</div>
+    <h1 class="big">Capability<span>Statement</span></h1>
+    <p class="descr">Licensed plumbing and drainage across Sydney. <b>Emergency blockages, jet blasting, CCTV, excavation, relining and planned maintenance.</b></p>
+    <div class="hair"></div>
+  </div>
+  <div class="capstrip">
+    <div><div class="k">NSW Licence</div><div class="v">368355C</div></div>
+    <div><div class="k">Emergency</div><div class="v">0451 766 576</div></div>
+    <div><div class="k">Availability</div><div class="v">24 / 7 · 365</div></div>
+    <div><div class="k">Coverage</div><div class="v">Sydney Wide</div></div>
+  </div>
+  <div class="base">
+    <div class="lockup" style="display:flex;align-items:center;gap:6mm">
+      <img src="assets/capability/ops-mark-deep.png" alt="" style="height:13mm;width:auto">
+      <div><div class="wm" style="font-size:13pt">Optic Plumbing Solutions</div>
+      <div class="sub">Plumbing · Drainage · Emergency</div></div>
+    </div>
+    <div class="rev">Issue 2.0 · September 2026<br>opticplumbingsolutions.com.au</div>
+  </div>
+</section>
+
+<!-- ═══════ 02 · CONTENTS ═══════ -->
+<section class="page">
+  <div class="spine"><div class="no">02<i>PAGE</i></div>
+    <div class="lbl"><span>Contents</span></div>
+    <div class="track"><div class="tick" style="top:0%;height:6.25%"></div></div>
+    <div class="foot">OPS</div></div>
+  <div class="body">
+    <div class="eyebrow">Section index</div>
+    <h1>Contents</h1>
+    <div class="rule"></div>
+
+    <div class="g2u mt10">
+      <div>
+        <table class="mx">
+          <tr><th style="width:9mm"></th><th>Section</th><th style="width:12mm">Page</th></tr>
+          <tr><td class="m">01</td><td><b>Company profile</b></td><td class="m">03</td></tr>
+          <tr><td class="m">02</td><td><b>Capability at a glance</b></td><td class="m">04</td></tr>
+          <tr><td class="m">03</td><td><b>Emergency and blockage call outs</b></td><td class="m">05</td></tr>
+          <tr><td class="m">04</td><td><b>Blocked drains and jet blasting</b></td><td class="m">06</td></tr>
+          <tr><td class="m">05</td><td><b>Excavation, relining and stormwater</b></td><td class="m">07</td></tr>
+          <tr><td class="m">06</td><td><b>CCTV, leak detection and reporting</b></td><td class="m">08</td></tr>
+          <tr><td class="m">07</td><td><b>Preventative maintenance</b></td><td class="m">09</td></tr>
+          <tr><td class="m">08</td><td><b>Backflow, compliance and defects</b></td><td class="m">10</td></tr>
+          <tr><td class="m">09</td><td><b>Hot water, gas and general plumbing</b></td><td class="m">11</td></tr>
+          <tr><td class="m">10</td><td><b>Who we work for</b></td><td class="m">12</td></tr>
+          <tr><td class="m">11</td><td><b>Safety, compliance and quality</b></td><td class="m">13</td></tr>
+          <tr><td class="m">12</td><td><b>Equipment and vehicles</b></td><td class="m">14</td></tr>
+          <tr><td class="m">13</td><td><b>How we work</b></td><td class="m">15</td></tr>
+          <tr><td class="m">14</td><td><b>Why Optic Plumbing Solutions</b></td><td class="m">16</td></tr>
+          <tr><td class="m">15</td><td><b>Contact and engagement</b></td><td class="m">17</td></tr>
+        </table>
+      </div>
+
+      <div>
+        <h3>Document control</h3>
+        <div class="spec mt4">
+          <div class="r wide"><div class="k">Issue</div><div class="v"><em>2.0</em> · September 2026</div></div>
+          <div class="r wide"><div class="k">Prepared by</div><div class="v">Jere Skorin, Licensed Plumber and Director</div></div>
+          <div class="r wide"><div class="k">ABN</div><div class="v"><em>28 654 678 449</em></div></div>
+          <div class="r wide"><div class="k">NSW Licence</div><div class="v"><em>368355C</em></div></div>
+          <div class="r wide"><div class="k">Base</div><div class="v">Clermont Avenue, Concord NSW 2137</div></div>
+          <div class="r wide"><div class="k">Telephone</div><div class="v"><em>0451 766 576</em></div></div>
+        </div>
+        <div class="panel mt8">
+          <h3>Purpose</h3>
+          <p>Prepared for councils, government agencies, developers, facilities managers and property groups assessing Optic Plumbing Solutions for reactive and scheduled plumbing work.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot-rule"><span><b>Optic Plumbing Solutions</b> · Capability Statement</span><span>0451 766 576</span></div>
+</section>
+
+<!-- ═══════ 03 · COMPANY PROFILE ═══════ -->
+<section class="page">
+  <div class="spine"><div class="no">03<i>PAGE</i></div>
+    <div class="lbl"><span>Company Profile</span></div>
+    <div class="track"><div class="tick" style="top:6.25%;height:6.25%"></div></div>
+    <div class="foot">OPS</div></div>
+  <div class="body">
+    <div class="eyebrow">Section 01</div>
+    <h1>Company profile</h1>
+    <div class="rule"></div>
+
+    <p class="deck">A NSW licensed plumbing and drainage contractor based in Concord, working across Sydney for commercial, industrial, government, strata and residential clients. <strong>Maintenance and drainage is our core business.</strong></p>
+
+    <figure class="shot mt8" style="height:46mm">
+      <img src="assets/capability/site-truck.jpg" alt="Optic Plumbing Solutions truck on site with jetting hose deployed">
+      <figcaption>Jetting unit deployed on site</figcaption>
+    </figure>
+
+    <div class="g2u mt8">
+      <div>
+        <p>We investigate, clear, repair, replace and maintain sewer, stormwater, water and gas services, usually in buildings that stay open while we work.</p>
+        <p>Every vehicle carries CCTV cameras, jetting equipment, pipe locators and leak detection, so the cause of a fault is found on the first attendance.</p>
+        <p>Owner operated. The licensed plumber who quotes the work is the one accountable for it.</p>
+      </div>
+      <div>
+        <h3>Who we work for</h3>
+        <ul class="tl dense mt4">
+          <li>Councils and government</li>
+          <li>Schools and childcare</li>
+          <li>Commercial and industrial property</li>
+          <li>Strata and property management</li>
+          <li>Developers and builders</li>
+          <li>Facilities management</li>
+          <li>Residential</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="spec mt8">
+      <div class="r"><div class="k">Licence</div><div class="v">NSW Plumbing and Drainage Licence <em>368355C</em></div></div>
+      <div class="r"><div class="k">Experience</div><div class="v">15 years and over in plumbing, drainage and gasfitting</div></div>
+      <div class="r"><div class="k">Availability</div><div class="v">24 hours, 7 days, weekends and public holidays</div></div>
+      <div class="r"><div class="k">Insurances</div><div class="v">Public liability and workers compensation, certificates on request</div></div>
+    </div>
+  </div>
+  <div class="foot-rule"><span><b>Optic Plumbing Solutions</b> · Capability Statement</span><span>0451 766 576</span></div>
+</section>
+
+<!-- ═══════ 04 · CAPABILITY AT A GLANCE ═══════ -->
+<section class="page">
+  <div class="spine"><div class="no">04<i>PAGE</i></div>
+    <div class="lbl"><span>Capability At A Glance</span></div>
+    <div class="track"><div class="tick" style="top:12.5%;height:6.25%"></div></div>
+    <div class="foot">OPS</div></div>
+  <div class="body">
+    <div class="eyebrow">Section 02</div>
+    <h1>Capability at a glance</h1>
+    <div class="rule"></div>
+
+    <p class="deck">Nine capabilities, one licensed contractor, one point of contact.</p>
+
+    <div class="stats mt8">
+      <div><div class="fig">24/7</div><div class="cap">Emergency<br>availability</div></div>
+      <div><div class="fig">15<small>+ yrs</small></div><div class="cap">Plumbing and<br>drainage</div></div>
+      <div><div class="fig">368355C</div><div class="cap">NSW<br>licence</div></div>
+    </div>
+
+    <div class="g3 mt10">
+      <div class="cap"><div class="ix">C01</div><h4>Emergency call outs</h4>
+        <p>24 hour response to blockages, overflows, burst pipes and leaks.</p></div>
+      <div class="cap"><div class="ix">C02</div><h4>Jet blasting</h4>
+        <p>Truck mounted jetting for roots, grease, silt and scale.</p></div>
+      <div class="cap"><div class="ix">C03</div><h4>CCTV inspections</h4>
+        <p>Camera inspection, defect reporting and pipe locating.</p></div>
+    </div>
+    <div class="g3 mt8">
+      <div class="cap"><div class="ix">C04</div><h4>Excavation and relining</h4>
+        <p>Dig and replace, or reline from the inside where digging is not ideal.</p></div>
+      <div class="cap"><div class="ix">C05</div><h4>Stormwater and OSD</h4>
+        <p>Stormwater systems, pits, pumps and on site detention.</p></div>
+      <div class="cap"><div class="ix">C06</div><h4>Preventative maintenance</h4>
+        <p>Scheduled inspection, jetting and reporting programs.</p></div>
+    </div>
+    <div class="g3 mt8">
+      <div class="cap"><div class="ix">C07</div><h4>Backflow and testing</h4>
+        <p>Install, test, repair and report on backflow devices.</p></div>
+      <div class="cap"><div class="ix">C08</div><h4>Hot water and gas</h4>
+        <p>Hot water plant, gasfitting and general plumbing.</p></div>
+      <div class="cap"><div class="ix">C09</div><h4>Defect rectification</h4>
+        <p>Investigate reported defects and price the repair.</p></div>
+    </div>
+  </div>
+  <div class="foot-rule"><span><b>Optic Plumbing Solutions</b> · Capability Statement</span><span>0451 766 576</span></div>
+</section>
+
+<!-- ═══════ 05 · EMERGENCY AND BLOCKAGE CALL OUTS ═══════ -->
+<section class="page">
+  <div class="spine"><div class="no">05<i>PAGE</i></div>
+    <div class="lbl"><span>Emergency Call Outs</span></div>
+    <div class="track"><div class="tick" style="top:18.75%;height:6.25%"></div></div>
+    <div class="foot">OPS</div></div>
+  <div class="body">
+    <div class="eyebrow">Section 03</div>
+    <h1>Emergency and<br><em>blockage call outs</em></h1>
+    <div class="rule"></div>
+
+    <p class="deck">A blocked drain in an operating building is a time problem before it is a plumbing problem.</p>
+
+    <div class="panel panel--urgent mt8" style="display:grid;grid-template-columns:1fr auto;gap:8mm;align-items:center">
+      <div><h3>24 / 7 emergency line</h3>
+      <p>Answered by a licensed plumber, not a call centre. Weekends and public holidays included.</p></div>
+      <div style="font:700 22pt/1 'JetBrains Mono',monospace;color:#fff;letter-spacing:-.03em;white-space:nowrap">0451 766 576</div>
+    </div>
+
+    <div class="g2u mt8">
+      <div>
+        <h3>What we attend</h3>
+        <ul class="tl dense mt4">
+          <li>Blocked sewer mains and overflows</li>
+          <li>Blocked toilets, sinks and floor wastes</li>
+          <li>Stormwater surcharge and pit flooding</li>
+          <li>Burst and leaking water pipes</li>
+          <li>Failed hot water plant</li>
+          <li>Gas leaks and appliance isolation</li>
+          <li>Water damage and make safe works</li>
+        </ul>
+      </div>
+      <div>
+        <figure class="shot" style="height:54mm">
+          <img src="assets/capability/emergency-street.jpg" alt="Service vehicle attending a blocked drain on a residential street">
+          <figcaption>Attending a blocked main</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="mt8">
+      <h3>How a call out runs</h3>
+      <div class="mt4">
+        <div class="step"><div class="n">01</div><div><h4>Attend and make safe</h4><p>Locate the fault, isolate the service and make the area safe for occupants and the public.</p></div></div>
+        <div class="step"><div class="n">02</div><div><h4>Clear and diagnose</h4><p>Clear the blockage, then run the camera to establish why it happened.</p></div></div>
+        <div class="step"><div class="n">03</div><div><h4>Advise and document</h4><p>Report the finding, price any repair needed, and issue the record for your files.</p></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot-rule"><span><b>Optic Plumbing Solutions</b> · Capability Statement</span><span>0451 766 576</span></div>
+</section>
+
+<!-- ═══════ 06 · BLOCKED DRAINS AND JET BLASTING ═══════ -->
+<section class="page">
+  <div class="spine"><div class="no">06<i>PAGE</i></div>
+    <div class="lbl"><span>Drains &amp; Jet Blasting</span></div>
+    <div class="track"><div class="tick" style="top:25%;height:6.25%"></div></div>
+    <div class="foot">OPS</div></div>
+  <div class="body">
+    <div class="eyebrow">Section 04</div>
+    <h1>Blocked drains and<br><em>jet blasting</em></h1>
+    <div class="rule"></div>
+
+    <p class="deck">Our truck mounted jetter cuts roots and scours the full bore of the pipe, rather than punching a hole through the blockage.</p>
+
+    <figure class="hero mt8" style="height:64mm">
+      <img src="assets/capability/jetting-onsite.jpg" alt="Plumber running a jetting hose into an inspection opening">
+      <div class="cap">
+        <div class="k">On site</div>
+        <h2>Clear the line,<br>then prove it</h2>
+      </div>
+    </figure>
+
+    <div class="g2u mt8">
+      <div>
+        <h3>What jetting removes</h3>
+        <div class="g2 mt4" style="gap:6mm">
+          <ul class="tl dense">
+            <li>Tree roots</li>
+            <li>Grease and fat</li>
+            <li>Silt and sediment</li>
+          </ul>
+          <ul class="tl dense">
+            <li>Scale build up</li>
+            <li>Sanitary debris</li>
+            <li>Building waste</li>
+          </ul>
+        </div>
+
+        <h3 class="mt6">Where we clear</h3>
+        <ul class="tl dense mt4">
+          <li>Sewer mains, branches and boundary traps</li>
+          <li>Stormwater lines, pits and downpipes</li>
+          <li>Grease traps and kitchen waste lines</li>
+          <li>Car park and hardstand drainage</li>
+          <li>Drains under buildings and slabs</li>
+          <li>Toilets, sinks and floor wastes</li>
+          <li>Pits, sumps and grated drains</li>
+        </ul>
+      </div>
+      <div>
+        <figure class="shot" style="height:46mm">
+          <img src="assets/capability/boundary-trap.jpg" alt="Plumber clearing a blocked boundary trap">
+          <figcaption>Locating a blockage</figcaption>
+        </figure>
+        <div class="panel mt6">
+          <h3>Rodding versus jetting</h3>
+          <p>An eel cuts a passage and the drain runs again, until the same roots grow back. Jetting strips the material off the pipe wall, and we pair it with a camera so you find out why it blocked.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="foot-rule"><span><b>Optic Plumbing Solutions</b> · Capability Statement</span><span>0451 766 576</span></div>
+</section>
+
+<!-- ═══════ 07 · EXCAVATION, RELINING AND STORMWATER ═══════ -->
+<section class="page">
+  <div class="spine"><div class="no">07<i>PAGE</i></div>
+    <div class="lbl"><span>Excavation &amp; Relining</span></div>
+    <div class="track"><div class="tick" style="top:31.25%;height:6.25%"></div></div>
+    <div class="foot">OPS</div></div>
+  <div class="body">
+    <div class="eyebrow">Section 05</div>
+    <h1>Excavation, relining<br><em>and stormwater</em></h1>
+    <div class="rule"></div>
+
+    <p class="deck"><strong>Digging is not always the answer.</strong> Where a drain runs under concrete, paving or a building, we can reline it from the inside and leave the surface untouched.</p>
+
+    <div class="g2 mt8">
+      <figure class="shot" style="height:58mm">
+        <img src="assets/capability/excavation.jpg" alt="Excavator and new drainage pipework on a commercial site">
+        <figcaption>Drainage replacement</figcaption>
+      </figure>
+      <figure class="shot" style="height:58mm">
+        <img src="assets/capability/stormwater-pit.jpg" alt="Precast stormwater pit being installed">
+        <figcaption>Stormwater pit installation</figcaption>
+      </figure>
+    </div>
+
+    <div class="panel panel--navy mt8">
+      <h3>Two ways to fix a drain</h3>
+      <p>Excavate and replace, or reline from the inside. We inspect first, then recommend whichever suits the site, the surface above it and the budget. There is always more than one option, and we will tell you which one we would choose and why.</p>
+    </div>
+
+    <div class="g3 mt8">
+      <div>
+        <h3>Excavation</h3>
+        <ul class="tl dense mt4">
+          <li>Locating services first</li>
+          <li>Replacing failed sections</li>
+          <li>New drainage runs</li>
+          <li>Pit and opening installation</li>
+          <li>Backfill and reinstatement</li>
+          <li>Traffic management</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Pipe relining</h3>
+        <ul class="tl dense mt4">
+          <li>Liner cured inside the old pipe</li>
+          <li>No cutting through concrete</li>
+          <li>Drains under buildings</li>
+          <li>Gardens left intact</li>
+          <li>Root entry sealed at joints</li>
+          <li>Full length or patch repairs</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Stormwater and OSD</h3>
+        <ul class="tl dense mt4">
+          <li>Lines, pits and grates</li>
+          <li>Charged and gravity systems</li>
+          <li>Drainage pumps and wells</li>
+          <li>OSD tank clearing</li>
+          <li>Orifice plate checks</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="foot-rule"><span><b>Optic Plumbing Solutions</b> · Capability Statement</span><span>0451 766 576</span></div>
+</section>
+
+<!-- ═══════ 08 · CCTV, LEAK DETECTION AND REPORTING ═══════ -->
+<section class="page">
+  <div class="spine"><div class="no">08<i>PAGE</i></div>
+    <div class="lbl"><span>CCTV &amp; Leak Detection</span></div>
+    <div class="track"><div class="tick" style="top:37.5%;height:6.25%"></div></div>
+    <div class="foot">OPS</div></div>
+  <div class="body">
+    <div class="eyebrow">Section 06</div>
+    <h1>CCTV, leak detection<br><em>and reporting</em></h1>
+    <div class="rule"></div>
+
+    <p class="deck">Repair decisions should rest on what the camera shows, not on a guess.</p>
+
+    <div class="g2 mt8">
+      <figure class="shot" style="height:58mm">
+        <img src="assets/capability/dye-test.jpg" alt="Fluorescent dye tracing a leak across a tiled floor">
+        <figcaption>Dye tracing a leak</figcaption>
+      </figure>
+      <figure class="shot" style="height:58mm">
+        <img src="assets/capability/thermal.jpg" alt="Thermal imaging camera locating a concealed leak">
+        <figcaption>Thermal leak location</figcaption>
+      </figure>
+    </div>
+
+    <div class="g2 mt8">
+      <div>
+        <h3>What we find</h3>
+        <ul class="tl dense mt4">
+          <li>Root intrusion and points of entry</li>
+          <li>Cracks, fractures and collapse</li>
+          <li>Displaced and open joints</li>
+          <li>Fall and standing water problems</li>
+          <li>Concealed leaks in slabs and walls</li>
+          <li>The cause of a recurring blockage</li>
+        </ul>
+      </div>
+      <div>
+        <h3>What you receive</h3>
+        <ul class="tl dense mt4">
+          <li>Recorded camera footage</li>
+          <li>Defect description and significance</li>
+          <li>Surface location and depth marked</li>
+          <li>Photographic evidence</li>
+          <li>Recommended repair and price</li>
+          <li>Verification footage after the works</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="panel mt8">
+      <h3>Why the record matters</h3>
+      <p>An asset manager should be able to see the original defect and the finished repair without having been on site. That is what turns a maintenance spend into a decision you can defend at budget time.</p>
+    </div>
+  </div>
+  <div class="foot-rule"><span><b>Optic Plumbing Solutions</b> · Capability Statement</span><span>0451 766 576</span></div>
+</section>
+
+<!-- ═══════ 09 · PREVENTATIVE MAINTENANCE ═══════ -->
+<section class="page">
+  <div class="spine"><div class="no">09<i>PAGE</i></div>
+    <div class="lbl"><span>Preventative Maintenance</span></div>
+    <div class="track"><div class="tick" style="top:43.75%;height:6.25%"></div></div>
+    <div class="foot">OPS</div></div>
+  <div class="body">
+    <div class="eyebrow">Section 07</div>
+    <h1>Preventative<br><em>maintenance</em></h1>
+    <div class="rule"></div>
+
+    <p class="deck"><strong>Drainage should be managed as an asset, not as an emergency.</strong> A scheduled program moves plumbing spend out of after hours rates and into planned, budgeted work.</p>
+
+    <div class="g2u mt8">
+      <div>
+        <h3>Typical frequencies</h3>
+        <p class="sm mt3">Set against site risk, asset condition and history.</p>
+        <table class="mx mt4">
+          <tr><th>Asset</th><th style="width:26mm">Frequency</th></tr>
+          <tr><td>Commercial kitchens, grease lines</td><td class="m">Quarterly</td></tr>
+          <tr><td>Sites with tree root history</td><td class="m">6 monthly</td></tr>
+          <tr><td>Schools, childcare and aged care</td><td class="m">6 to 12 monthly</td></tr>
+          <tr><td>Strata and residential buildings</td><td class="m">12 monthly</td></tr>
+          <tr><td>Stormwater pits and car parks</td><td class="m">Before storms</td></tr>
+          <tr><td>OSD tanks and discharge pits</td><td class="m">12 monthly</td></tr>
+          <tr><td>Hot water plant</td><td class="m">12 monthly</td></tr>
+          <tr><td>Backflow devices</td><td class="m">12 monthly</td></tr>
+        </table>
+      </div>
+      <div>
+        <figure class="shot" style="height:54mm">
+          <img src="assets/capability/scheduled-jetting.jpg" alt="Truck mounted jetter unit with hose reels">
+          <figcaption>Scheduled jetting on planned visits</figcaption>
+        </figure>
+        <h3 class="mt6">What we catch early</h3>
+        <ul class="tl dense mt4">
+          <li>Root intrusion</li>
+          <li>Grease and debris</li>
+          <li>Silt and sediment</li>
+          <li>Deteriorating joints</li>
+          <li>Restricted flow</li>
+          <li>Failing hot water plant</li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="panel panel--navy mt8">
+      <h3>How a program runs</h3>
+      <p>We baseline the site with a camera, rank the assets by what failure would actually cost you, set a frequency for each, and document every visit. Emerging defects get flagged with a price before they become emergencies. Issues then get dealt with at business hours rates, across a single site or a whole portfolio under one schedule.</p>
+    </div>
+  </div>
+  <div class="foot-rule"><span><b>Optic Plumbing Solutions</b> · Capability Statement</span><span>0451 766 576</span></div>
+</section>
+
+<!-- ═══════ 10 · BACKFLOW, COMPLIANCE AND DEFECTS ═══════ -->
+<section class="page">
+  <div class="spine"><div class="no">10<i>PAGE</i></div>
+    <div class="lbl"><span>Backflow &amp; Compliance</span></div>
+    <div class="track"><div class="tick" style="top:50%;height:6.25%"></div></div>
+    <div class="foot">OPS</div></div>
+  <div class="body">
+    <div class="eyebrow">Section 08</div>
+    <h1>Backflow, compliance<br><em>and defects</em></h1>
+    <div class="rule"></div>
+
+    <p class="deck">Backflow devices protect the drinking water supply. On most commercial and council property they must be tested and recorded every year.</p>
+
+    <div class="g2 mt8">
+      <figure class="shot" style="height:58mm">
+        <img src="assets/capability/rpzd-testing.jpg" alt="Backflow prevention device installed on a commercial site">
+        <figcaption>RPZD testing and compliance</figcaption>
+      </figure>
+      <figure class="shot" style="height:58mm">
+        <img src="assets/capability/backflow-meter.jpg" alt="Backflow prevention device and water meter assembly">
+        <figcaption>Backflow device and meter</figcaption>
+      </figure>
+    </div>
+
+    <div class="g2 mt8">
+      <div>
+        <h3>Backflow prevention</h3>
+        <ul class="tl dense mt4">
+          <li>Device installation and replacement</li>
+          <li>Annual testing by accredited personnel</li>
+          <li>Test reports for you and the water authority</li>
+          <li>Repair and rebuild of failed devices</li>
+          <li>Hazard rating and device selection</li>
+          <li>Registration and record keeping</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Defect rectification</h3>
+        <ul class="tl dense mt4">
+          <li>Investigating reported plumbing defects</li>
+          <li>Leak location in slabs, walls and roofs</li>
+          <li>Drainage defects found by camera</li>
+          <li>Rectifying work that does not comply</li>
+          <li>Written reports for builders and owners</li>
+          <li>Works during defect liability periods</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="panel mt8">
+      <h3>Compliance is a record, not a promise</h3>
+      <p>Test results, compliance certificates and defect reports are only useful if somebody keeps them. We issue them in writing every time, so the site holds a paper trail for an auditor, an insurer or the next contractor.</p>
+    </div>
+  </div>
+  <div class="foot-rule"><span><b>Optic Plumbing Solutions</b> · Capability Statement</span><span>0451 766 576</span></div>
+</section>
+
+<!-- ═══════ 11 · HOT WATER, GAS AND GENERAL ═══════ -->
+<section class="page">
+  <div class="spine"><div class="no">11<i>PAGE</i></div>
+    <div class="lbl"><span>Hot Water, Gas &amp; General</span></div>
+    <div class="track"><div class="tick" style="top:56.25%;height:6.25%"></div></div>
+    <div class="foot">OPS</div></div>
+  <div class="body">
+    <div class="eyebrow">Section 09</div>
+    <h1>Hot water, gas and<br><em>general plumbing</em></h1>
+    <div class="rule"></div>
+
+    <p class="deck">Beyond drainage, we hold the rest of the plumbing scope for a site, so you are not coordinating three trades.</p>
+
+    <div class="g2 mt8">
+      <figure class="shot" style="height:54mm">
+        <img src="assets/capability/copper-services.jpg" alt="Copper water services and valves on a commercial ceiling">
+        <figcaption>Commercial water services</figcaption>
+      </figure>
+      <figure class="shot" style="height:54mm">
+        <img src="assets/capability/copper-mains.jpg" alt="Copper mains and valve set on a commercial site">
+        <figcaption>Copper mains and valve set</figcaption>
+      </figure>
+    </div>
+
+    <div class="g3 mt8">
+      <div>
+        <h3>Hot water</h3>
+        <ul class="tl dense mt4">
+          <li>Gas, electric and heat pump</li>
+          <li>Valves, elements and controls</li>
+          <li>Tempering valve replacement</li>
+          <li>Like for like and upgrades</li>
+          <li>Annual service and safety check</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Gas and gasfitting</h3>
+        <ul class="tl dense mt4">
+          <li>Gas leak detection</li>
+          <li>Gas line repairs and alterations</li>
+          <li>Appliance connection</li>
+          <li>Commercial kitchen gasfitting</li>
+          <li>Compliance and certification</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Water and general</h3>
+        <ul class="tl dense mt4">
+          <li>Burst and leaking pipes</li>
+          <li>Water main and service repairs</li>
+          <li>Taps, cisterns and fixtures</li>
+          <li>Isolation valve installation</li>
+          <li>Roof plumbing and downpipes</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="spec mt8">
+      <div class="r"><div class="k">Materials</div><div class="v">WaterMark certified products, certification supplied where required</div></div>
+      <div class="r"><div class="k">Standards</div><div class="v">AS/NZS 3500 and the NSW Plumbing Code of Australia</div></div>
+      <div class="r"><div class="k">Certification</div><div class="v">Notice of Work and Certificate of Compliance lodged for notifiable work</div></div>
+    </div>
+  </div>
+  <div class="foot-rule"><span><b>Optic Plumbing Solutions</b> · Capability Statement</span><span>0451 766 576</span></div>
+</section>
+
+<!-- ═══════ 12 · WHO WE WORK FOR ═══════ -->
+<section class="page">
+  <div class="spine"><div class="no">12<i>PAGE</i></div>
+    <div class="lbl"><span>Who We Work For</span></div>
+    <div class="track"><div class="tick" style="top:62.5%;height:6.25%"></div></div>
+    <div class="foot">OPS</div></div>
+  <div class="body">
+    <div class="eyebrow">Section 10</div>
+    <h1>Who we work for</h1>
+    <div class="rule"></div>
+
+    <p class="deck">Council and government assets, and the commercial buildings that have to keep trading while we work in them.</p>
+
+    <figure class="hero mt8" style="height:60mm">
+      <img src="assets/capability/truck-hero.jpg" alt="Optic Plumbing Solutions service truck with the jetting unit open">
+      <div class="cap">
+        <div class="k">One contractor</div>
+        <h2>Turn up, diagnose,<br>fix it, document it</h2>
+        <p>Public amenities carry their own profile: heavy use, no supervision and almost no tolerance for closure. Repeated clearing usually hides a fault worth finding.</p>
+      </div>
+    </figure>
+
+    <div class="g2 mt8">
+      <div>
+        <h3>Council and government</h3>
+        <ul class="tl dense mt4">
+          <li>Administration buildings and depots</li>
+          <li>Public amenities and toilet blocks</li>
+          <li>Libraries and community centres</li>
+          <li>Childcare and early learning</li>
+          <li>Parks, reserves and sporting facilities</li>
+          <li>Aquatic and leisure centres</li>
+          <li>Public car parks and kerb drainage</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Commercial and strata</h3>
+        <ul class="tl dense mt4">
+          <li>Shopping centres and retail</li>
+          <li>Commercial offices</li>
+          <li>Strata and mixed use buildings</li>
+          <li>Hospitality and licensed venues</li>
+          <li>Aged care and medical</li>
+          <li>Warehouses and industrial</li>
+          <li>Developer and builder projects</li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="mt8">
+      <h3>How we work on your assets</h3>
+      <table class="mx mt4">
+        <tr><th style="width:44mm">Consideration</th><th>Our approach</th></tr>
+        <tr><td><b>Public safety</b></td><td>Work areas isolated and signed. Open excavations and pits never left unsecured.</td></tr>
+        <tr><td><b>Disruption</b></td><td>Booked around operating hours, events and community use where the fault allows.</td></tr>
+        <tr><td><b>Asset protection</b></td><td>Paving, turf and structures protected, then reinstated to the condition found.</td></tr>
+        <tr><td><b>Communication</b></td><td>One point of contact, with findings reported to your nominated officer.</td></tr>
+      </table>
+    </div>
+  </div>
+  <div class="foot-rule"><span><b>Optic Plumbing Solutions</b> · Capability Statement</span><span>0451 766 576</span></div>
+</section>
+
+<!-- ═══════ 13 · SAFETY, COMPLIANCE AND QUALITY ═══════ -->
+<section class="page">
+  <div class="spine"><div class="no">13<i>PAGE</i></div>
+    <div class="lbl"><span>Safety &amp; Compliance</span></div>
+    <div class="track"><div class="tick" style="top:68.75%;height:6.25%"></div></div>
+    <div class="foot">OPS</div></div>
+  <div class="body">
+    <div class="eyebrow">Section 11</div>
+    <h1>Safety, compliance<br><em>and quality</em></h1>
+    <div class="rule"></div>
+
+    <p class="deck">Commercial and government work carries a higher standard of documentation and site management than domestic work. We operate to it by default.</p>
+
+    <div class="g3 mt8">
+      <div>
+        <h3>On site</h3>
+        <ul class="tl dense mt4">
+          <li>WHS obligations under the NSW Act</li>
+          <li>Site specific risk assessment</li>
+          <li>SWMS for high risk work</li>
+          <li>Occupied and public buildings</li>
+          <li>Service location before excavation</li>
+          <li>Correct disposal of drainage waste</li>
+          <li>No discharge to stormwater</li>
+          <li>Reinstated to the condition found</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Quality control</h3>
+        <ul class="tl dense mt4">
+          <li>Inspection and diagnosis before works</li>
+          <li>Materials and WaterMark verification</li>
+          <li>Pressure, flow and function testing</li>
+          <li>Camera inspection after works</li>
+          <li>Site completion and handover</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Warranty</h3>
+        <ul class="tl dense mt4">
+          <li>Workmanship backed in writing</li>
+          <li>Period stated on the quotation</li>
+          <li>Manufacturer warranty passed through in full</li>
+          <li>Consumer Law guarantees also apply</li>
+          <li>Exclusions stated before works begin</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt8">
+      <h3>Documentation available</h3>
+      <div class="spec mt4">
+        <div class="r"><div class="k">Licensing</div><div class="v">NSW Plumbing and Drainage Licence 368355C and relevant trade credentials</div></div>
+        <div class="r"><div class="k">Insurance</div><div class="v">Public liability and workers compensation certificates of currency</div></div>
+        <div class="r"><div class="k">SWMS</div><div class="v">Safe Work Method Statements and site specific risk documents</div></div>
+        <div class="r"><div class="k">Screening</div><div class="v">Working With Children Check where a site requires it</div></div>
+        <div class="r"><div class="k">Inductions</div><div class="v">Site induction and contractor management system compliance</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot-rule"><span><b>Optic Plumbing Solutions</b> · Capability Statement</span><span>0451 766 576</span></div>
+</section>
+
+<!-- ═══════ 14 · EQUIPMENT AND VEHICLES ═══════ -->
+<section class="page">
+  <div class="spine"><div class="no">14<i>PAGE</i></div>
+    <div class="lbl"><span>Equipment &amp; Vehicles</span></div>
+    <div class="track"><div class="tick" style="top:75%;height:6.25%"></div></div>
+    <div class="foot">OPS</div></div>
+  <div class="body">
+    <div class="eyebrow">Section 12</div>
+    <h1>Equipment<br><em>and vehicles</em></h1>
+    <div class="rule"></div>
+
+    <p class="deck">Diagnostic and clearing equipment travels on the vehicle. That is the difference between finding the fault today and booking a second visit.</p>
+
+    <div class="g2 mt8">
+      <figure class="shot" style="height:58mm">
+        <img src="assets/capability/truck-side.jpg" alt="Optic Plumbing Solutions service vehicle">
+        <figcaption>Branded service vehicle</figcaption>
+      </figure>
+      <figure class="shot" style="height:58mm">
+        <img src="assets/capability/reels.jpg" alt="Technician working at the jetter hose reels and pressure gauges">
+        <figcaption>Reels, gauges and nozzle set</figcaption>
+      </figure>
+    </div>
+
+    <div class="g2 mt8">
+      <div>
+        <h3>Specialised equipment</h3>
+        <ul class="tl dense mt4">
+          <li>Truck mounted high pressure jet blasting unit</li>
+          <li>Root cutting, chisel, flusher and descaling nozzles</li>
+          <li>High definition CCTV drain cameras</li>
+          <li>Pipe locating equipment with depth reading</li>
+          <li>Excavation equipment suited to the site</li>
+          <li>Submersible and drainage pumps</li>
+          <li>Pipe relining equipment</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Plumbing and site plant</h3>
+        <ul class="tl dense mt4">
+          <li>Thermal imaging and acoustic leak detection</li>
+          <li>Backflow test kit and gauges</li>
+          <li>Electric eels and drain machines</li>
+          <li>Oxy acetylene and press fit jointing</li>
+          <li>Pressure testing and isolation equipment</li>
+          <li>Core drilling and cutting equipment</li>
+          <li>Site protection, signage and containment</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="foot-rule"><span><b>Optic Plumbing Solutions</b> · Capability Statement</span><span>0451 766 576</span></div>
+</section>
+
+<!-- ═══════ 15 · HOW WE WORK ═══════ -->
+<section class="page">
+  <div class="spine"><div class="no">15<i>PAGE</i></div>
+    <div class="lbl"><span>How We Work</span></div>
+    <div class="track"><div class="tick" style="top:81.25%;height:6.25%"></div></div>
+    <div class="foot">OPS</div></div>
+  <div class="body">
+    <div class="eyebrow">Section 13</div>
+    <h1>How we work</h1>
+    <div class="rule"></div>
+
+    <p class="deck">The same sequence whether it is a 2am blocked main or a booked quarterly visit. Nothing assumed, nothing undocumented, no surprise on the invoice.</p>
+
+
+    <div class="mt8">
+      <div class="g2" style="gap:0 10mm">
+        <div class="step"><div class="n">01</div><div><h4>Receive</h4><p>Taken by a licensed plumber. Urgency and access confirmed on the call.</p></div></div>
+        <div class="step"><div class="n">02</div><div><h4>Make safe</h4><p>Fault located and isolated. Hazards come before diagnosis.</p></div></div>
+        <div class="step"><div class="n">03</div><div><h4>Diagnose</h4><p>Camera or leak detection establishes the actual cause.</p></div></div>
+        <div class="step"><div class="n">04</div><div><h4>Price</h4><p>Findings and options before chargeable work begins.</p></div></div>
+        <div class="step"><div class="n">05</div><div><h4>Rectify</h4><p>Licensed tradespeople, WaterMark materials, AS/NZS 3500.</p></div></div>
+        <div class="step"><div class="n">06</div><div><h4>Verify</h4><p>Service retested, with camera verification where relevant.</p></div></div>
+        <div class="step"><div class="n">07</div><div><h4>Reinstate</h4><p>Surfaces returned to the condition found. Site left clean.</p></div></div>
+        <div class="step"><div class="n">08</div><div><h4>Report</h4><p>Written and photographic record issued for your files.</p></div></div>
+      </div>
+    </div>
+
+    <div class="mt8">
+      <h3>Response coverage</h3>
+      <table class="mx mt4">
+        <tr><th style="width:56mm">Engagement</th><th>Response</th></tr>
+        <tr><td><b>Emergency</b></td><td class="m">24 / 7, priority attendance</td></tr>
+        <tr><td><b>Urgent works</b></td><td class="m">Same or next business day</td></tr>
+        <tr><td><b>Quoted and scheduled works</b></td><td class="m">Booked to suit site operations</td></tr>
+        <tr><td><b>Preventative maintenance</b></td><td class="m">Programmed in advance</td></tr>
+      </table>
+      <p class="sm mt4">Based in Concord and working Sydney wide. Attendance times are confirmed on the call, and specific response times can be agreed as part of a maintenance contract. Where a fault goes past an agreed approval threshold we stop at make safe and issue a scoped quotation first.</p>
+
+    </div>
+
+  </div>
+  <div class="foot-rule"><span><b>Optic Plumbing Solutions</b> · Capability Statement</span><span>0451 766 576</span></div>
+</section>
+
+<!-- ═══════ 16 · WHY OPS ═══════ -->
+<section class="page">
+  <div class="spine"><div class="no">16<i>PAGE</i></div>
+    <div class="lbl"><span>Why Optic Plumbing Solutions</span></div>
+    <div class="track"><div class="tick" style="top:87.5%;height:6.25%"></div></div>
+    <div class="foot">OPS</div></div>
+  <div class="body">
+    <div class="eyebrow">Section 14</div>
+    <h1>Why Optic<br><em>Plumbing Solutions</em></h1>
+    <div class="rule"></div>
+
+    <p class="deck">Six reasons a council, facilities manager or property group keeps us on the panel.</p>
+
+    <div class="g2 mt10" style="gap:10mm 10mm">
+      <div class="cap"><div class="ix">01</div><h4>Maintenance is the business</h4>
+        <p>Emergency response and drainage are our core work, not a sideline funded by new construction.</p></div>
+      <div class="cap"><div class="ix">02</div><h4>Answered by a plumber</h4>
+        <p>The 24/7 line reaches a licensed plumber. Urgency is judged by someone qualified to judge it.</p></div>
+      <div class="cap"><div class="ix">03</div><h4>Cause, not symptom</h4>
+        <p>Clearing a drain is the start of the job. If a fault will come back, we say so and price the fix.</p></div>
+      <div class="cap"><div class="ix">04</div><h4>More than one option</h4>
+        <p>Excavate or reline. We inspect first, then recommend what suits the site and the surface above it.</p></div>
+      <div class="cap"><div class="ix">05</div><h4>Built for occupied buildings</h4>
+        <p>We assume the building is trading. Isolation, staging and reinstatement are standard, not extras.</p></div>
+      <div class="cap"><div class="ix">06</div><h4>Documented as standard</h4>
+        <p>Written findings, photos and footage that support asset registers, claims and budget submissions.</p></div>
+    </div>
+
+    <figure class="hero mt10" style="height:58mm">
+      <img src="assets/capability/commercial-case.jpg" alt="Excavator and new drainage pipework on a commercial site">
+      <div class="cap">
+        <div class="k">The commercial case</div>
+        <h2>Unplanned is the<br>expensive part</h2>
+        <p>After hours rates, tenant disruption, water damage make good, and repeat visits to a fault nobody diagnosed. Our job is to move your spend from unplanned to planned.</p>
+      </div>
+    </figure>
+  </div>
+  <div class="foot-rule"><span><b>Optic Plumbing Solutions</b> · Capability Statement</span><span>0451 766 576</span></div>
+</section>
+
+<!-- ═══════ 17 · CONTACT ═══════ -->
+<section class="page">
+  <div class="spine"><div class="no">17<i>PAGE</i></div>
+    <div class="lbl"><span>Contact</span></div>
+    <div class="track"><div class="tick" style="top:93.75%;height:6.25%"></div></div>
+    <div class="foot">OPS</div></div>
+  <div class="body">
+    <div class="eyebrow">Section 15</div>
+    <h1>Contact and engagement</h1>
+    <div class="rule"></div>
+
+    <div class="ct mt8">
+      <div class="ct-top">
+        <div class="lockup" style="display:flex;align-items:center;gap:6mm">
+          <img src="assets/capability/ops-mark-navy.png" alt="" style="height:14mm;width:auto">
+          <div><div class="wm" style="font-size:13.5pt">Optic Plumbing Solutions</div>
+          <div class="sub">Commercial · Government · Council · Facilities</div></div>
+        </div>
+      </div>
+      <div class="ct-grid">
+        <div>
+          <div class="ct-k">24 / 7 emergency and enquiries</div>
+          <div class="big">0451 766 576</div>
+          <div class="ct-line" style="margin-top:5mm">opticplumbingsolutions@gmail.com</div>
+          <div class="ct-line">opticplumbingsolutions.com.au</div>
+          <div class="ct-line" style="margin-top:5mm">Clermont Avenue<br>Concord NSW 2137</div>
+          <div class="ct-meta">NSW Licence 368355C<br>ABN 28 654 678 449</div>
+        </div>
+        <div>
+          <div class="ct-k">Capability summary</div>
+          <ul class="tl dense on-dark mt4">
+            <li>Emergency and blockage call outs</li>
+            <li>Jet blasting and blocked drains</li>
+            <li>CCTV and leak detection</li>
+            <li>Excavation and pipe relining</li>
+            <li>Stormwater, OSD and pumps</li>
+            <li>Preventative maintenance</li>
+            <li>Backflow prevention and testing</li>
+            <li>Hot water, gas and general</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt8">
+      <h3>How to engage us</h3>
+      <div class="g3 mt4" style="gap:0 8mm">
+        <div class="step"><div class="n">01</div><div><h4>Call or email</h4><p>Describe the fault, the site and the urgency.</p></div></div>
+        <div class="step"><div class="n">02</div><div><h4>Onboarding</h4><p>Licence, insurance and SWMS for registration.</p></div></div>
+        <div class="step"><div class="n">03</div><div><h4>Scope and quote</h4><p>Written scope and price, or attend and report.</p></div></div>
+      </div>
+    </div>
+
+    <div class="mt8">
+      <h3>Available on request</h3>
+      <div class="g2 mt4">
+        <ul class="tl dense">
+          <li>Certificates of currency</li>
+          <li>Safe Work Method Statements</li>
+          <li>Referee and project references</li>
+        </ul>
+        <ul class="tl dense">
+          <li>Maintenance program proposal</li>
+          <li>Schedule of rates for panels</li>
+          <li>Site specific risk documentation</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="signoff mt6">
+      <div class="signoff-line">Diagnose it. <em>Fix it once.</em> Document it.</div>
+      <div class="signoff-sub">Optic Plumbing Solutions · Concord NSW · Servicing Sydney</div>
+    </div>
+  </div>
+  <div class="foot-rule"><span><b>Optic Plumbing Solutions</b> · Capability Statement</span><span>Issue 2.0 · September 2026</span></div>
+</section>
+
+</body>
+</html>

@@ -4,7 +4,7 @@ import path from 'node:path';
 import url from 'node:url';
 
 const ROOT = path.dirname(url.fileURLToPath(import.meta.url));
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',

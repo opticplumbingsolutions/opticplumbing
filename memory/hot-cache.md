@@ -57,6 +57,22 @@ Avoid: plumber sydney, emergency plumber sydney, best plumber sydney, cheap plum
 
 Note: volume/KD figures are estimates without live SEO MCP. Validate with Ahrefs/Ubersuggest before final commit.
 
+## Page Map (locked 2026-06-22 — user approved)
+Hub-and-spoke, homepage = hub. Build order top→bottom. Vol/KD = estimates (no live tool).
+| Page | Primary keyword | vol | KD | intent |
+|------|-----------------|-----|----|--------|
+| `/` (hub) | plumber concord | 210 | 25 | commercial |
+| /emergency-plumber-concord | emergency plumber concord | 110 | 18 | transactional |
+| /blocked-drains-concord (drainage pillar) | blocked drain concord | 90 | 16 | transactional |
+| /drain-jet-blasting-concord | drain jet blasting concord | 40 | 14 | transactional |
+| /cctv-drain-inspection-concord | cctv drain inspection concord | 30 | 12 | commercial |
+| /burst-pipe-repair-concord | burst pipe repair concord | 50 | 15 | transactional |
+| /hot-water-concord | hot water repair concord | 70 | 20 | comm/trans |
+| /gas-plumber-concord | gas plumber concord | 40 | 17 | commercial |
+| /leaking-tap-repair-concord | leaking tap repair concord | 30 | 12 | transactional |
+
+De-dupe rule applied: hot-water repair/replace/system = ONE page; gasfitter/gas-leak/gas-plumber = ONE page.
+
 ## Veto Items (active)
 None recorded.
 
